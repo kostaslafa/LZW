@@ -60,7 +60,8 @@ Option:
 3. Press 'Q' for exit.
 
 ## NOTE 
-The actual size of compressed data in Python file are actually larger in size than the input data. This is because I use a list data type.
+The actual size of compressed data in Python file is larger in size than the input data. This is because I use a list.
+
 BUT this is just a demo for LZW :)
 
 ## Contact
