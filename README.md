@@ -25,6 +25,7 @@ Data type dict (dictionary) is used for the dictionary of the algorithm.
 The max size of the dictionary is set to 2^12 = 4096.
 
 <-- Endoder -->
+
 The "compress" function is responsible for the encoding. 
 The input data can be any strings of characters which satisfies the following conditions:
 1. The string must be written in latin characters (Capital or lowercase).
@@ -39,16 +40,19 @@ will be encoded as: "HELLOWHATANICEDAY".      and "WHATSUP".
 The result is a list of output symbols (integers).
 
 <-- function "make_txt_ready" -->
+
 This function takes as an input the input string and prepares it for the encoding:
 1. Makes all the letters capitals
 2. Removes spaces and permitted symbols
 
 <-- Decoder -->
+
 The "decompress" function is responsible for the decoding.
 The input is a list of symbols (integers, like the list that the encoder produces).
 The output is a string of capital latin characters, without any spaces or symbols.
 
 <-- MAIN/ EXAMPLE -->
+
 For testing the user can write his/her own text or see how the program works with the string = 'kostaskostaskostaslafalafakolafakostlafa'.
 Option:
 1. Press enter for the stock example
