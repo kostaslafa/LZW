@@ -4,8 +4,8 @@ Implementation of LZW in Python
 
 ## Table of contents
 * [General info](#general-info)
-* [LZW C](#lzw c)
-* [LZW Python](#lzw python)
+* [LZW C](#lzw-c)
+* [LZW Python](#lzw-python)
 * [NOTE](#note)
 * [Contact](#contact)
 
