@@ -4,8 +4,8 @@ Implementation of LZW in Python
 
 ## Table of contents
 * [General info](#general-info)
-* [LZW in C](#lzwc)
-* [LZW in Python](#lzwpy)
+* [LZW C](#lzw c)
+* [LZW Python](#lzw python)
 * [NOTE](#note)
 * [Contact](#contact)
 
@@ -13,11 +13,11 @@ Implementation of LZW in Python
 LZW (Lempel-Ziv-Weich) is a lossless data compression algorithm created by Abraham Lempel, Jacob Ziv, and Terry Welch.
 More info: en.wikipedia.org/wiki/Lempel–Ziv–Welch
 
-## LZW in C
+## LZW C
 This file icludes an implementation of LZW encoding in C.
 Reads the raw data from the image: akiyo_cif_0_yuv420.yuv, which I have uploaded.
 
-## LZW in Python
+## LZW Python
 LZW ENCODER & DECODER
 Python 3.8.0
 
