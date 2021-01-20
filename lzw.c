@@ -131,7 +131,7 @@ void compress()
 	// check if the last element is part of a string that exists in the dictionary
 	if(exists == 0)
 	{			
-		output[address] =	pos;
+		output[address] = pos;
 	}
 	else
 	{
